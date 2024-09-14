@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.imageStyling{
+    height: 500px;
+    margin: 10px;
+}
+.imageStyling:hover{
+transform: rotate(45deg)
+}
+
+h1{
+    color: navy;
+    position: relative;
+    white-space: nowrap;
+    animation: scroll 8s linear infinite;
+}
+@keyframes scroll {
+    0% {
+        right: 25%;
+    }
+    100% {
+        right: -25%;
+    }
+}
+
+.imageStyling div {
+    background-color: brown;
+}
