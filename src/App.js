@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import Home from './Components/Home/Home';
+import Home from './Components/Pages/Home/Home';
 import ErrorBoundary from './Components/ErrorBoundary/ErrorBoundary';
 
 function App() {
